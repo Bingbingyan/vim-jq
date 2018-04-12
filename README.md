@@ -1,3 +1,11 @@
+
+<!-- vim-markdown-toc GFM -->
+
+* [vim-jq](#vim-jq)
+  * [截图](#截图)
+  * [安装方法](#安装方法)
+
+<!-- vim-markdown-toc -->
 # vim-jq
 1. 格式化 JSON 文件
 ```
