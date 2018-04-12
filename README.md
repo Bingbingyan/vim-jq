@@ -11,7 +11,7 @@
 [怎样使用 jq 命令](https://stedolan.github.io/jq/tutorial/)
 
 ## 截图
-![screenshot](screenshot/QQ20180412-233330-HD.gif)
+![screenshot](screenshot/gif5.gif)
 
 ## 安装方法
 1. Git clone
