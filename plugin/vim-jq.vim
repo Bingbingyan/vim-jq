@@ -9,7 +9,7 @@
     execute "%! python3 -c " code
     silent execute 'set ft=json'
   endfunction
-  nnoremap! <Leader>fj :call FormatJSON(v:count)<CR>
+  nnoremap <Leader>fj :call FormatJSON(v:count)<CR>
 
   " 调用 jq 筛选 Json
   function! JQFilter(name)
@@ -40,5 +40,5 @@
   endfunction
   " 调用 jq 筛选 Json 内容
   " !cat % | jq '.data[].areaname'
-  nnoremap! <Leader>jq :call JQFilter(input("jq/"))<CR>
+  nnoremap <Leader>jq :call JQFilter(input("jq/"))<CR>
 
