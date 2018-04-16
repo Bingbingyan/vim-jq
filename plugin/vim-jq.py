@@ -26,6 +26,7 @@ def formatjson_from_buffer():
             location = m[0].split(' ')
             vim.command('cal cursor(%s,%s)' % (location[1], location[3]))
         print(e)
+    vim.command('set ft=json')
 
 
 def formatjson(block):
