@@ -30,4 +30,4 @@ def formatjson_from_buffer():
 
 
 def formatjson(block):
-    return json.dumps(block, indent=2, ensure_ascii=False)
+    return json.dumps(block, indent=2, ensure_ascii=False,sort_keys=True)
